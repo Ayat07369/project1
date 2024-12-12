@@ -1,0 +1,146 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Белый фон для страницы */
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff; /* Белый фон для меню */
+  padding: 10px;
+  box-shadow: none;  /* Убирает тени (если они есть) */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  position: relative; /* Добавляем для правильной работы вложенных элементов */
+}
+
+nav ul li a {
+  color: black;  /* Черный цвет для текста в меню */
+  text-decoration: none;
+  padding: 10px;  /* Убирает квадратные блоки и делает ссылки более удобными для клика */
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  background-color: transparent;  /* Убирает фон при наведении */
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: transparent;  /* Убирает фон */
+  padding: 10px;
+  margin: 10px;
+  border: none;  /* Убирает бордеры */
+}
+/* src/App.css */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff5a5f;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* src/App.css */
+
+/* Общие стили для всего приложения */
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Стили для навигации */
+nav {
+  background-color: #ff5a5f;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffe600;
+  text-decoration: underline;
+}
+
+/* Стили для основного содержимого */
+div {
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: #ff5a5f;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Кнопки */
+button {
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #e94e4f;
+}
+
